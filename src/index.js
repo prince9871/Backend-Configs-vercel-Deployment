@@ -17,7 +17,7 @@ app.get('/', (req, res) =>
   .animated-text {
     font-size: 3em;
     animation: colorChange 0.5s infinite alternate;
-  }">Hello Project King!</h1>'))
-app.get('/a', (req, res) => res.send('Hello World! Ji`)
+  }">Hello Project King!</h1>`))
+app.get('/a', (req, res) => res.send('Hello World! Ji')
 )
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
